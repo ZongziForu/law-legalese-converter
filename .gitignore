@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Test outputs & examples (not for public repo)
+screenshots/
+law_legalese_test_results.md
+好意同乘_rewrite_教义学.md
+xiaohongshu_note.html
+
+# Claude internal config
+.claude/
+
+# Git credentials
+*.token

@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "defaults": {
+    "record_limit": 32,
+    "chunk_limit": 8,
+    "max_chars": 9000,
+    "base_record_sources": [
+      "05"
+    ],
+    "base_chunk_files": [
+      "03"
+    ],
+    "base_chunk_selectors": [
+      {
+        "file": "02",
+        "heading_contains": "机制总表"
+      },
+      {
+        "file": "12",
+        "heading_contains": "二元保真检查"
+      }
+    ]
+  },
+  "modes": {
+    "rewrite": {
+      "chunk_selectors": [
+        {
+          "file": "12",
+          "heading_contains": "rewrite 闸门"
+        }
+      ]
+    },
+    "expand": {
+      "chunk_selectors": [
+        {
+          "file": "12",
+          "heading_contains": "expand 闸门"
+        }
+      ]
+    },
+    "analyze": {
+      "chunk_selectors": [
+        {
+          "file": "12",
+          "heading_contains": "analyze 闸门"
+        }
+      ]
+    }
+  },
+  "domains": {
+    "general": {
+      "record_sources": [
+        "05"
+      ]
+    },
+    "criminal": {
+      "record_sources": [
+        "06",
+        "05"
+      ]
+    },
+    "civil": {
+      "record_sources": [
+        "07",
+        "05"
+      ]
+    },
+    "property": {
+      "record_sources": [
+        "07",
+        "05"
+      ],
+      "heading_keywords": [
+        "物权",
+        "占有"
+      ]
+    },
+    "obligation": {
+      "record_sources": [
+        "07",
+        "05"
+      ],
+      "heading_keywords": [
+        "债",
+        "履行"
+      ]
+    },
+    "commercial": {
+      "record_sources": [
+        "07",
+        "05"
+      ],
+      "heading_keywords": [
+        "公司",
+        "商"
+      ]
+    },
+    "labor": {
+      "record_sources": [
+        "07",
+        "05"
+      ],
+      "heading_keywords": [
+        "劳动"
+      ]
+    },
+    "administrative": {
+      "record_sources": [
+        "05",
+        "08"
+      ]
+    },
+    "intellectual_property": {
+      "record_sources": [
+        "05",
+        "08"
+      ]
+    },
+    "procedure": {
+      "record_sources": [
+        "16",
+        "14",
+        "05"
+      ]
+    },
+    "family": {
+      "record_sources": [
+        "16",
+        "07",
+        "05"
+      ],
+      "heading_keywords": [
+        "家事"
+      ]
+    },
+    "legal_theory": {
+      "record_sources": [
+        "05",
+        "15",
+        "08"
+      ]
+    },
+    "legal_history": {
+      "record_sources": [
+        "13",
+        "14",
+        "05"
+      ]
+    },
+    "mixed": {
+      "record_sources": [
+        "05",
+        "06",
+        "07"
+      ]
+    }
+  },
+  "profiles": {
+    "general_blacktalk": {
+      "record_sources": [
+        "05"
+      ],
+      "chunk_files": [
+        "02"
+      ]
+    },
+    "doctrinal_dense": {
+      "record_sources": [
+        "08",
+        "05"
+      ],
+      "chunk_files": [
+        "08"
+      ]
+    },
+    "old_school_civilist": {
+      "record_sources": [
+        "09",
+        "07",
+        "05"
+      ],
+      "chunk_files": [
+        "09"
+      ]
+    },
+    "judicial_formal": {
+      "record_sources": [
+        "16",
+        "14",
+        "10",
+        "05"
+      ],
+      "chunk_selectors": [
+        {
+          "file": "10",
+          "heading_contains": "当代中性裁判"
+        },
+        {
+          "file": "14",
+          "heading_contains": "当代裁判语域"
+        },
+        {
+          "file": "16",
+          "heading_contains": "当代裁判语域官方"
+        }
+      ]
+    },
+    "classical_legalese": {
+      "record_sources": [
+        "10",
+        "05",
+        "16"
+      ],
+      "chunk_files": [
+        "10"
+      ]
+    },
+    "republican_judgment": {
+      "record_sources": [
+        "14",
+        "10",
+        "16"
+      ],
+      "chunk_files": [
+        "14",
+        "10"
+      ]
+    },
+    "traditional_law": {
+      "record_sources": [
+        "13",
+        "10"
+      ],
+      "chunk_files": [
+        "13"
+      ]
+    },
+    "preface_rhetoric": {
+      "record_sources": [
+        "15",
+        "08",
+        "05"
+      ],
+      "chunk_files": [
+        "15"
+      ]
+    },
+    "absurd_overkill": {
+      "record_sources": [
+        "15",
+        "05",
+        "08"
+      ],
+      "chunk_files": [
+        "15"
+      ]
+    }
+  }
+}

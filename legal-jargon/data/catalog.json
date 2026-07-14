@@ -1,0 +1,8231 @@
+{
+  "version": 1,
+  "chunks": [
+    {
+      "id": "r01.h000",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 1,
+      "heading": "参数、中文别名、预设与路由",
+      "heading_path": [
+        "参数、中文别名、预设与路由"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h001",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "一、参数分层",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "一、参数分层"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h002",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "A. 常用参数",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "一、参数分层",
+        "A. 常用参数"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h003",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "B. 高级覆盖项",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "一、参数分层",
+        "B. 高级覆盖项"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h004",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "二、中英对照与自然语言别名",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "二、中英对照与自然语言别名"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h005",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "模式别名",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "二、中英对照与自然语言别名",
+        "模式别名"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h006",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "篇幅别名",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "二、中英对照与自然语言别名",
+        "篇幅别名"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h007",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "理论增量别名",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "二、中英对照与自然语言别名",
+        "理论增量别名"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h008",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "其他常见表达",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "二、中英对照与自然语言别名",
+        "其他常见表达"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h009",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "三、默认值与模式派生",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "三、默认值与模式派生"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h010",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "四、篇幅预算",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "四、篇幅预算"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h011",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "1. 命名档位",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "四、篇幅预算",
+        "1. 命名档位"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h012",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "2. 明确上限优先",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "四、篇幅预算",
+        "2. 明确上限优先"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h013",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "3. `expand` 的双预算",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "四、篇幅预算",
+        "3. `expand` 的双预算"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h014",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "五、强度档位",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "五、强度档位"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h015",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "六、七种预设",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h016",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "`general_blacktalk`｜现代通用黑话",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设",
+        "`general_blacktalk`｜现代通用黑话"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h017",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "`doctrinal_dense`｜高浓度现代教义学",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设",
+        "`doctrinal_dense`｜高浓度现代教义学"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h018",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "`old_school_civilist`｜老派民法学术腔",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设",
+        "`old_school_civilist`｜老派民法学术腔"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h019",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "`judicial_formal`｜当代中性裁判文书腔",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设",
+        "`judicial_formal`｜当代中性裁判文书腔"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h020",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "`classical_legalese`｜古典法言",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设",
+        "`classical_legalese`｜古典法言"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h021",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "`republican_judgment`｜民国判牍",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设",
+        "`republican_judgment`｜民国判牍"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h022",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "`absurd_overkill`｜真实理论过度使用式搞怪",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "六、七种预设",
+        "`absurd_overkill`｜真实理论过度使用式搞怪"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h023",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "七、冲突处理",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "七、冲突处理"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h024",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "八、权威与历史参数",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "八、权威与历史参数"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h025",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 2,
+      "heading": "九、资源路由细则",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "九、资源路由细则"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h026",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "1. 按领域",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "九、资源路由细则",
+        "1. 按领域"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h027",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "2. 按语体请求",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "九、资源路由细则",
+        "2. 按语体请求"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h028",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "3. 历史语境限制资源",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "九、资源路由细则",
+        "3. 历史语境限制资源"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r01.h029",
+      "file": "01_parameters_and_routing.md",
+      "source": "01",
+      "level": 3,
+      "heading": "4. 模式与资源的交叉门控",
+      "heading_path": [
+        "参数、中文别名、预设与路由",
+        "九、资源路由细则",
+        "4. 模式与资源的交叉门控"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h000",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 1,
+      "heading": "转换机制与模式门控",
+      "heading_path": [
+        "转换机制与模式门控"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h001",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "一、机制总表",
+      "heading_path": [
+        "转换机制与模式门控",
+        "一、机制总表"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h002",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "二、基础机制",
+      "heading_path": [
+        "转换机制与模式门控",
+        "二、基础机制"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h003",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M01 主体功能化",
+      "heading_path": [
+        "转换机制与模式门控",
+        "二、基础机制",
+        "M01 主体功能化"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h004",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M02 行为名词化",
+      "heading_path": [
+        "转换机制与模式门控",
+        "二、基础机制",
+        "M02 行为名词化"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h005",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M03 客体与关系抽象化",
+      "heading_path": [
+        "转换机制与模式门控",
+        "二、基础机制",
+        "M03 客体与关系抽象化"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h006",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M04 明示结构链条化",
+      "heading_path": [
+        "转换机制与模式门控",
+        "二、基础机制",
+        "M04 明示结构链条化"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h007",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M05 否定—重构",
+      "heading_path": [
+        "转换机制与模式门控",
+        "二、基础机制",
+        "M05 否定—重构"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h008",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M06 条件、例外与情态显化",
+      "heading_path": [
+        "转换机制与模式门控",
+        "二、基础机制",
+        "M06 条件、例外与情态显化"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h009",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "三、expand 专属机制",
+      "heading_path": [
+        "转换机制与模式门控",
+        "三、expand 专属机制"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h010",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M07 体系位置标注",
+      "heading_path": [
+        "转换机制与模式门控",
+        "三、expand 专属机制",
+        "M07 体系位置标注"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h011",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M08 概念区分与类型化",
+      "heading_path": [
+        "转换机制与模式门控",
+        "三、expand 专属机制",
+        "M08 概念区分与类型化"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h012",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M09 制度功能与价值框架",
+      "heading_path": [
+        "转换机制与模式门控",
+        "三、expand 专属机制",
+        "M09 制度功能与价值框架"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h013",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M10 同义定义递归",
+      "heading_path": [
+        "转换机制与模式门控",
+        "三、expand 专属机制",
+        "M10 同义定义递归"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h014",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M11 外国概念或比较视角",
+      "heading_path": [
+        "转换机制与模式门控",
+        "三、expand 专属机制",
+        "M11 外国概念或比较视角"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h015",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "四、analyze 专属机制",
+      "heading_path": [
+        "转换机制与模式门控",
+        "四、analyze 专属机制"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h016",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M12 阶层检验与请求权基础",
+      "heading_path": [
+        "转换机制与模式门控",
+        "四、analyze 专属机制",
+        "M12 阶层检验与请求权基础"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h017",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M13 学说对立与权威引用",
+      "heading_path": [
+        "转换机制与模式门控",
+        "四、analyze 专属机制",
+        "M13 学说对立与权威引用"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h018",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "五、语体与搞怪机制",
+      "heading_path": [
+        "转换机制与模式门控",
+        "五、语体与搞怪机制"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h019",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M14 语体滤镜",
+      "heading_path": [
+        "转换机制与模式门控",
+        "五、语体与搞怪机制",
+        "M14 语体滤镜"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h020",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M15 过度论证与庄严反差",
+      "heading_path": [
+        "转换机制与模式门控",
+        "五、语体与搞怪机制",
+        "M15 过度论证与庄严反差"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h021",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "M16 长文本一致性",
+      "heading_path": [
+        "转换机制与模式门控",
+        "五、语体与搞怪机制",
+        "M16 长文本一致性"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h022",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "六、机制选择预算",
+      "heading_path": [
+        "转换机制与模式门控",
+        "六、机制选择预算"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h023",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "七、句群与段落组织机制",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h024",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P01 问题提出—表面理解排除",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P01 问题提出—表面理解排除"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h025",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P02 事实描述—规范评价提升",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P02 事实描述—规范评价提升"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h026",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P03 构成要件—体系定位",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P03 构成要件—体系定位"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h027",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P04 二说区分—谨慎选择",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P04 二说区分—谨慎选择"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h028",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P05 原则—例外—例外之限制",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P05 原则—例外—例外之限制"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h029",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P06 概念源流—制度功能—保护目的三元论证",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P06 概念源流—制度功能—保护目的三元论证"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h030",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P07 递归定义—层级分类—概念套接（长句组织）",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P07 递归定义—层级分类—概念套接（长句组织）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h031",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 3,
+      "heading": "P08 古典式段落推进",
+      "heading_path": [
+        "转换机制与模式门控",
+        "七、句群与段落组织机制",
+        "P08 古典式段落推进"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h032",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "八、表达强度梯度",
+      "heading_path": [
+        "转换机制与模式门控",
+        "八、表达强度梯度"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h033",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "九、词族归并规则",
+      "heading_path": [
+        "转换机制与模式门控",
+        "九、词族归并规则"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r02.h034",
+      "file": "02_conversion_mechanisms.md",
+      "source": "02",
+      "level": 2,
+      "heading": "十、因果双链（M04 补充）",
+      "heading_path": [
+        "转换机制与模式门控",
+        "十、因果双链（M04 补充）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h000",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 1,
+      "heading": "成文句式模板库",
+      "heading_path": [
+        "成文句式模板库"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h001",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 2,
+      "heading": "一、通用 rewrite 模板",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h002",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T01 主体—关系定位",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T01 主体—关系定位"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h003",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T02 行为名词化",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T02 行为名词化"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h004",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T03 否定—重构",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T03 否定—重构"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h005",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T04 关系链条",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T04 关系链条"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h006",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T05 情态限定",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T05 情态限定"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h007",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T06 条件门槛",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T06 条件门槛"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h008",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T07 事实与效果分层",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T07 事实与效果分层"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h009",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "T08 高密度短句",
+      "heading_path": [
+        "成文句式模板库",
+        "一、通用 rewrite 模板",
+        "T08 高密度短句"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h010",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 2,
+      "heading": "二、expand 模板",
+      "heading_path": [
+        "成文句式模板库",
+        "二、expand 模板"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h011",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "E01 上位框架",
+      "heading_path": [
+        "成文句式模板库",
+        "二、expand 模板",
+        "E01 上位框架"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h012",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "E02 概念区分",
+      "heading_path": [
+        "成文句式模板库",
+        "二、expand 模板",
+        "E02 概念区分"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h013",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "E03 制度功能",
+      "heading_path": [
+        "成文句式模板库",
+        "二、expand 模板",
+        "E03 制度功能"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h014",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "E04 多角度但不下结论",
+      "heading_path": [
+        "成文句式模板库",
+        "二、expand 模板",
+        "E04 多角度但不下结论"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h015",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "E05 信赖与衡平",
+      "heading_path": [
+        "成文句式模板库",
+        "二、expand 模板",
+        "E05 信赖与衡平"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h016",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "E06 风险与边界",
+      "heading_path": [
+        "成文句式模板库",
+        "二、expand 模板",
+        "E06 风险与边界"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h017",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 2,
+      "heading": "三、analyze 模板",
+      "heading_path": [
+        "成文句式模板库",
+        "三、analyze 模板"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h018",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "A01 争点—依据—涵摄—结论",
+      "heading_path": [
+        "成文句式模板库",
+        "三、analyze 模板",
+        "A01 争点—依据—涵摄—结论"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h019",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "A02 已知事实与假设分离",
+      "heading_path": [
+        "成文句式模板库",
+        "三、analyze 模板",
+        "A02 已知事实与假设分离"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h020",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "A03 多路径分析",
+      "heading_path": [
+        "成文句式模板库",
+        "三、analyze 模板",
+        "A03 多路径分析"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h021",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 2,
+      "heading": "四、语体模板",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h022",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "O01 老派民法—关系展开",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "O01 老派民法—关系展开"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h023",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "O02 老派民法—严为区别",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "O02 老派民法—严为区别"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h024",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "C01 古典法言—按断",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "C01 古典法言—按断"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h025",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "C02 古典法言—审慎收束",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "C02 古典法言—审慎收束"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h026",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "J01 当代裁判—主张层次",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "J01 当代裁判—主张层次"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h027",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "J02 当代裁判—事实层次",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "J02 当代裁判—事实层次"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h028",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "R01 民国判牍—陈述",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "R01 民国判牍—陈述"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h029",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "R02 民国判牍—收束",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "R02 民国判牍—收束"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h030",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "G01 搞怪—宏大定位",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "G01 搞怪—宏大定位"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h031",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "G02 搞怪—递归界定",
+      "heading_path": [
+        "成文句式模板库",
+        "四、语体模板",
+        "G02 搞怪—递归界定"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h032",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 2,
+      "heading": "五、组合与冷却",
+      "heading_path": [
+        "成文句式模板库",
+        "五、组合与冷却"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h033",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 2,
+      "heading": "六、句法家族",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h034",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F01 否定—转折—重构",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F01 否定—转折—重构"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h035",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F02 原则—例外—再限制",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F02 原则—例外—再限制"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h036",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F03 事实层—规范层区分",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F03 事实层—规范层区分"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h037",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F04 概念界定—边界排除",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F04 概念界定—边界排除"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h038",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F05 条件列举—效果判断",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F05 条件列举—效果判断"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h039",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F06 制度功能—体系位置—价值证成",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F06 制度功能—体系位置—价值证成"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h040",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F07 风险创设—风险实现—归责关联",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F07 风险创设—风险实现—归责关联"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h041",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F08 意思形成—认识状态—处分行为—利益变动",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F08 意思形成—认识状态—处分行为—利益变动"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h042",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F09 权利成立—效力发生—对抗范围",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F09 权利成立—效力发生—对抗范围"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h043",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F10 谨慎提出—反面排除—暂缓结论",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F10 谨慎提出—反面排除—暂缓结论"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h044",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F11 体系提升阶梯",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F11 体系提升阶梯"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h045",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 3,
+      "heading": "F12 学说处理句（对立—折衷—本文立场）",
+      "heading_path": [
+        "成文句式模板库",
+        "六、句法家族",
+        "F12 学说处理句（对立—折衷—本文立场）"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r03.h046",
+      "file": "03_sentence_templates.md",
+      "source": "03",
+      "level": 2,
+      "heading": "七、家族使用规则",
+      "heading_path": [
+        "成文句式模板库",
+        "七、家族使用规则"
+      ],
+      "kind": "template_route",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h000",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 1,
+      "heading": "功能标签与词库组织体系",
+      "heading_path": [
+        "功能标签与词库组织体系"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h001",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 2,
+      "heading": "功能标签总表",
+      "heading_path": [
+        "功能标签与词库组织体系",
+        "功能标签总表"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h002",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 2,
+      "heading": "一、句法功能标签（12类）",
+      "heading_path": [
+        "功能标签与词库组织体系",
+        "一、句法功能标签（12类）"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h003",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 2,
+      "heading": "二、语义功能标签（20类）",
+      "heading_path": [
+        "功能标签与词库组织体系",
+        "二、语义功能标签（20类）"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h004",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 2,
+      "heading": "三、复合标签规则",
+      "heading_path": [
+        "功能标签与词库组织体系",
+        "三、复合标签规则"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h005",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 3,
+      "heading": "复合标签示例",
+      "heading_path": [
+        "功能标签与词库组织体系",
+        "三、复合标签规则",
+        "复合标签示例"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h006",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 2,
+      "heading": "四、标签使用规则",
+      "heading_path": [
+        "功能标签与词库组织体系",
+        "四、标签使用规则"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r04.h007",
+      "file": "04_function_tags.md",
+      "source": "04",
+      "level": 2,
+      "heading": "五、标签→词库映射",
+      "heading_path": [
+        "功能标签与词库组织体系",
+        "五、标签→词库映射"
+      ],
+      "kind": "tag_definition",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h000",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 1,
+      "heading": "通用表达层词库",
+      "heading_path": [
+        "通用表达层词库"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h001",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "一、文言连接词与论证装置",
+      "heading_path": [
+        "通用表达层词库",
+        "一、文言连接词与论证装置"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h002",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "二、否定—重构与限制表达",
+      "heading_path": [
+        "通用表达层词库",
+        "二、否定—重构与限制表达"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h003",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "三、结论收束与判断表达",
+      "heading_path": [
+        "通用表达层词库",
+        "三、结论收束与判断表达"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h004",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "四、抽象名词与高密度词",
+      "heading_path": [
+        "通用表达层词库",
+        "四、抽象名词与高密度词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h005",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "五、框架定位与概念容器",
+      "heading_path": [
+        "通用表达层词库",
+        "五、框架定位与概念容器"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h006",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "六、因果归责与边界限度",
+      "heading_path": [
+        "通用表达层词库",
+        "六、因果归责与边界限度"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h007",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "七、评价判断与程序证明",
+      "heading_path": [
+        "通用表达层词库",
+        "七、评价判断与程序证明"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h008",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "九、评价重复/规范吸收",
+      "heading_path": [
+        "通用表达层词库",
+        "九、评价重复/规范吸收"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h009",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "十、生僻书面词与修辞增稠",
+      "heading_path": [
+        "通用表达层词库",
+        "十、生僻书面词与修辞增稠"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h010",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "十一、文言连接词增补",
+      "heading_path": [
+        "通用表达层词库",
+        "十一、文言连接词增补"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h011",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "十二、判断强度梯度",
+      "heading_path": [
+        "通用表达层词库",
+        "十二、判断强度梯度"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h012",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "十三、解释悬置与学说处理",
+      "heading_path": [
+        "通用表达层词库",
+        "十三、解释悬置与学说处理"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h013",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "十四、体系升格词",
+      "heading_path": [
+        "通用表达层词库",
+        "十四、体系升格词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r05.h014",
+      "file": "05_lexicon_general.md",
+      "source": "05",
+      "level": 2,
+      "heading": "十五、学术批评与评价词",
+      "heading_path": [
+        "通用表达层词库",
+        "十五、学术批评与评价词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk",
+        "doctrinal_dense",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h000",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 1,
+      "heading": "刑法专用词库",
+      "heading_path": [
+        "刑法专用词库"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h001",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "一、犯罪论体系词",
+      "heading_path": [
+        "刑法专用词库",
+        "一、犯罪论体系词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h002",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "二、正犯与共犯词",
+      "heading_path": [
+        "刑法专用词库",
+        "二、正犯与共犯词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h003",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "三、刑罚与竞合词",
+      "heading_path": [
+        "刑法专用词库",
+        "三、刑罚与竞合词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h004",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "四、不作为与过失词",
+      "heading_path": [
+        "刑法专用词库",
+        "四、不作为与过失词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h005",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "五、归责与规范评价句法",
+      "heading_path": [
+        "刑法专用词库",
+        "五、归责与规范评价句法"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h006",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "六、刑法判断与批评词",
+      "heading_path": [
+        "刑法专用词库",
+        "六、刑法判断与批评词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h007",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "七、犯罪阶层与竞合句法家族",
+      "heading_path": [
+        "刑法专用词库",
+        "七、犯罪阶层与竞合句法家族"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h008",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 3,
+      "heading": "F-C1 阶层推进式（analyze 限定）",
+      "heading_path": [
+        "刑法专用词库",
+        "七、犯罪阶层与竞合句法家族",
+        "F-C1 阶层推进式（analyze 限定）"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h009",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 3,
+      "heading": "F-C2 原则—例外—例外之例外（刑法版）",
+      "heading_path": [
+        "刑法专用词库",
+        "七、犯罪阶层与竞合句法家族",
+        "F-C2 原则—例外—例外之例外（刑法版）"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h010",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 3,
+      "heading": "F-C3 竞合处理式",
+      "heading_path": [
+        "刑法专用词库",
+        "七、犯罪阶层与竞合句法家族",
+        "F-C3 竞合处理式"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h011",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 3,
+      "heading": "F-C4 谦抑与最后手段式",
+      "heading_path": [
+        "刑法专用词库",
+        "七、犯罪阶层与竞合句法家族",
+        "F-C4 谦抑与最后手段式"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h012",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "八、刑法外语术语增补（可靠通行者）",
+      "heading_path": [
+        "刑法专用词库",
+        "八、刑法外语术语增补（可靠通行者）"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r06.h013",
+      "file": "06_lexicon_criminal_law.md",
+      "source": "06",
+      "level": 2,
+      "heading": "九、刑罚论与刑事政策词",
+      "heading_path": [
+        "刑法专用词库",
+        "九、刑罚论与刑事政策词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "criminal"
+      ],
+      "presets": [
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h000",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 1,
+      "heading": "民商法专用词库",
+      "heading_path": [
+        "民商法专用词库"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h001",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "一、民法总论词",
+      "heading_path": [
+        "民商法专用词库",
+        "一、民法总论词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h002",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "二、物权法专用词",
+      "heading_path": [
+        "民商法专用词库",
+        "二、物权法专用词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "property",
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h003",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "三、公司法专用词",
+      "heading_path": [
+        "民商法专用词库",
+        "三、公司法专用词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "commercial",
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h004",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "四、劳动法专用词",
+      "heading_path": [
+        "民商法专用词库",
+        "四、劳动法专用词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "labor",
+        "commercial",
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h005",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "五、意思表示与法律行为深化",
+      "heading_path": [
+        "民商法专用词库",
+        "五、意思表示与法律行为深化"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h006",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "六、效力形态谱系",
+      "heading_path": [
+        "民商法专用词库",
+        "六、效力形态谱系"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h007",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "七、物权与占有深化",
+      "heading_path": [
+        "民商法专用词库",
+        "七、物权与占有深化"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "property",
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h008",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "八、债与履行深化",
+      "heading_path": [
+        "民商法专用词库",
+        "八、债与履行深化"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "obligation",
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h009",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 2,
+      "heading": "九、老派民法学者表达",
+      "heading_path": [
+        "民商法专用词库",
+        "九、老派民法学者表达"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h010",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 3,
+      "heading": "1. 条件与门槛",
+      "heading_path": [
+        "民商法专用词库",
+        "九、老派民法学者表达",
+        "1. 条件与门槛"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h011",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 3,
+      "heading": "2. 判断与断语",
+      "heading_path": [
+        "民商法专用词库",
+        "九、老派民法学者表达",
+        "2. 判断与断语"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h012",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 3,
+      "heading": "3. 效力命运词",
+      "heading_path": [
+        "民商法专用词库",
+        "九、老派民法学者表达",
+        "3. 效力命运词"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h013",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 3,
+      "heading": "4. 教材式分述与转场",
+      "heading_path": [
+        "民商法专用词库",
+        "九、老派民法学者表达",
+        "4. 教材式分述与转场"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h014",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 3,
+      "heading": "5. 概念区分短语",
+      "heading_path": [
+        "民商法专用词库",
+        "九、老派民法学者表达",
+        "5. 概念区分短语"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r07.h015",
+      "file": "07_lexicon_civil_property_obligations.md",
+      "source": "07",
+      "level": 3,
+      "heading": "6. 比较法接口（仅限来源已有或 analyze）",
+      "heading_path": [
+        "民商法专用词库",
+        "九、老派民法学者表达",
+        "6. 比较法接口（仅限来源已有或 analyze）"
+      ],
+      "kind": "lexicon",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist",
+        "doctrinal_dense",
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h000",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 1,
+      "heading": "现代法教义学风格资源",
+      "heading_path": [
+        "现代法教义学风格资源"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h001",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "一、风格特征",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "一、风格特征"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h002",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "二、rewrite 可用资源",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "二、rewrite 可用资源"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h003",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "三、expand 可用资源",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "三、expand 可用资源"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h004",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "四、analyze 专属资源",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "四、analyze 专属资源"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h005",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "五、可靠外语术语示例",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "五、可靠外语术语示例"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h006",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "六、避免事项",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "六、避免事项"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h007",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "七、德日理论翻译腔",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "七、德日理论翻译腔"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h008",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "八、概念递归、层级分类与概念套接",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "八、概念递归、层级分类与概念套接"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h009",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "九、方法论转场句",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "九、方法论转场句"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h010",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "十、段群组织：学者腔连续表达",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "十、段群组织：学者腔连续表达"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r08.h011",
+      "file": "08_style_modern_doctrinal.md",
+      "source": "08",
+      "level": 2,
+      "heading": "十一、可靠外语术语增补",
+      "heading_path": [
+        "现代法教义学风格资源",
+        "十一、可靠外语术语增补"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "doctrinal_dense"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h000",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 1,
+      "heading": "老派民法学术腔资源",
+      "heading_path": [
+        "老派民法学术腔资源"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h001",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "一、风格边界",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "一、风格边界"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h002",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "二、常用连接与判断词",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "二、常用连接与判断词"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h003",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "三、句法家族",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "三、句法家族"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h004",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 3,
+      "heading": "1. 概念界定型",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "三、句法家族",
+        "1. 概念界定型"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h005",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 3,
+      "heading": "2. 法律关系层次型",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "三、句法家族",
+        "2. 法律关系层次型"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h006",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 3,
+      "heading": "3. 原则—限制型",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "三、句法家族",
+        "3. 原则—限制型"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h007",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 3,
+      "heading": "4. 效力射程型",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "三、句法家族",
+        "4. 效力射程型"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h008",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 3,
+      "heading": "5. 反面排除型",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "三、句法家族",
+        "5. 反面排除型"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h009",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 3,
+      "heading": "6. 判断悬置型",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "三、句法家族",
+        "6. 判断悬置型"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h010",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "四、rewrite 与 expand 的差异",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "四、rewrite 与 expand 的差异"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h011",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "五、示范片段",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "五、示范片段"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h012",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "六、条件与例外句法家族",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "六、条件与例外句法家族"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h013",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "七、效力判断与谨慎断语家族",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "七、效力判断与谨慎断语家族"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h014",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "八、教材式分述与段落节奏",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "八、教材式分述与段落节奏"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r09.h015",
+      "file": "09_style_old_school_civilist.md",
+      "source": "09",
+      "level": 2,
+      "heading": "九、示范片段增补",
+      "heading_path": [
+        "老派民法学术腔资源",
+        "九、示范片段增补"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "civil"
+      ],
+      "presets": [
+        "old_school_civilist"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h000",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 1,
+      "heading": "古典法言、当代裁判与民国判牍资源",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "classical_legalese",
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h001",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "一、当代兼容的古典法言",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "一、当代兼容的古典法言"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h002",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 3,
+      "heading": "常用句法",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "一、当代兼容的古典法言",
+        "常用句法"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h003",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "二、当代中性裁判文书腔 `judicial_formal`",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "二、当代中性裁判文书腔 `judicial_formal`"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "judicial_formal"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h004",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 3,
+      "heading": "可用表达",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "二、当代中性裁判文书腔 `judicial_formal`",
+        "可用表达"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "judicial_formal"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h005",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "三、民国判牍 `republican_judgment`",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "三、民国判牍 `republican_judgment`"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h006",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "四、时间词与程度词门控",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "四、时间词与程度词门控"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "classical_legalese",
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h007",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "五、语体选择规则",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "五、语体选择规则"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "classical_legalese",
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h008",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "六、大理院判旨式句法",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "六、大理院判旨式句法"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h009",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "七、按断与公牍段落组织",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "七、按断与公牍段落组织"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r10.h010",
+      "file": "10_style_classical_and_judicial.md",
+      "source": "10",
+      "level": 2,
+      "heading": "八、语域路由提示",
+      "heading_path": [
+        "古典法言、当代裁判与民国判牍资源",
+        "八、语域路由提示"
+      ],
+      "kind": "style_resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "classical_legalese",
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h000",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 1,
+      "heading": "使用示例",
+      "heading_path": [
+        "使用示例"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h001",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "1. rewrite：只改写，不补理论",
+      "heading_path": [
+        "使用示例",
+        "1. rewrite：只改写，不补理论"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h002",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "2. rewrite：高强度但短",
+      "heading_path": [
+        "使用示例",
+        "2. rewrite：高强度但短"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h003",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "3. expand：只补一个框架",
+      "heading_path": [
+        "使用示例",
+        "3. expand：只补一个框架"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h004",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "4. expand：控制在两句内",
+      "heading_path": [
+        "使用示例",
+        "4. expand：控制在两句内"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h005",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "5. analyze：与扩写区分",
+      "heading_path": [
+        "使用示例",
+        "5. analyze：与扩写区分"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h006",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "6. 老派民法学术腔",
+      "heading_path": [
+        "使用示例",
+        "6. 老派民法学术腔"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h007",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "7. 古典法言，不历史化",
+      "heading_path": [
+        "使用示例",
+        "7. 古典法言，不历史化"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h008",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "8. 当代裁判文书腔",
+      "heading_path": [
+        "使用示例",
+        "8. 当代裁判文书腔"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h009",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "9. 民国判牍，来源限定",
+      "heading_path": [
+        "使用示例",
+        "9. 民国判牍，来源限定"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h010",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "10. 搞怪但不超长",
+      "heading_path": [
+        "使用示例",
+        "10. 搞怪但不超长"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h011",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "11. 搞怪度与过度论证度分离",
+      "heading_path": [
+        "使用示例",
+        "11. 搞怪度与过度论证度分离"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h012",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "12. 长段落与格式保留",
+      "heading_path": [
+        "使用示例",
+        "12. 长段落与格式保留"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h013",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "13. 刑法教义学扩写（expand）",
+      "heading_path": [
+        "使用示例",
+        "13. 刑法教义学扩写（expand）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h014",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "14. 民法总论改写（rewrite，朱庆育式）",
+      "heading_path": [
+        "使用示例",
+        "14. 民法总论改写（rewrite，朱庆育式）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h015",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "15. 物权改写（rewrite，史尚宽式老派民法）",
+      "heading_path": [
+        "使用示例",
+        "15. 物权改写（rewrite，史尚宽式老派民法）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h016",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "16. 债与合同扩写（expand）",
+      "heading_path": [
+        "使用示例",
+        "16. 债与合同扩写（expand）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h017",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "17. 历代刑法考式按断（traditional_law）",
+      "heading_path": [
+        "使用示例",
+        "17. 历代刑法考式按断（traditional_law）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h018",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "18. 大理院解释例函复式（republican_judgment）",
+      "heading_path": [
+        "使用示例",
+        "18. 大理院解释例函复式（republican_judgment）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h019",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "19. 序言修辞主资源（浪漫、有文采请求）",
+      "heading_path": [
+        "使用示例",
+        "19. 序言修辞主资源（浪漫、有文采请求）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r11.h020",
+      "file": "11_examples.md",
+      "source": "11",
+      "level": 2,
+      "heading": "20. 梯度表达对照（同一输入，四种强度）",
+      "heading_path": [
+        "使用示例",
+        "20. 梯度表达对照（同一输入，四种强度）"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h000",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 1,
+      "heading": "运行约束与轻量校验",
+      "heading_path": [
+        "运行约束与轻量校验"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h001",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "一、硬约束优先级",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "一、硬约束优先级"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h002",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "二、指令与目标文本隔离",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "二、指令与目标文本隔离"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h003",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "三、三模式闸门",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "三、三模式闸门"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h004",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 3,
+      "heading": "rewrite 闸门",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "三、三模式闸门",
+        "rewrite 闸门"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h005",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 3,
+      "heading": "expand 闸门",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "三、三模式闸门",
+        "expand 闸门"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h006",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 3,
+      "heading": "analyze 闸门",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "三、三模式闸门",
+        "analyze 闸门"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h007",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "四、二元保真检查",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "四、二元保真检查"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h008",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "五、篇幅校验",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "五、篇幅校验"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h009",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 3,
+      "heading": "明确上限",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "五、篇幅校验",
+        "明确上限"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h010",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 3,
+      "heading": "无明确上限",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "五、篇幅校验",
+        "无明确上限"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h011",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "六、元话语清除",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "六、元话语清除"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h012",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "七、格式与引用保护",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "七、格式与引用保护"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h013",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "八、快速路径与完整路径",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "八、快速路径与完整路径"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h014",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 3,
+      "heading": "快速路径",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "八、快速路径与完整路径",
+        "快速路径"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h015",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 3,
+      "heading": "完整路径",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "八、快速路径与完整路径",
+        "完整路径"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r12.h016",
+      "file": "12_runtime_guardrails.md",
+      "source": "12",
+      "level": 2,
+      "heading": "九、真实性与安全",
+      "heading_path": [
+        "运行约束与轻量校验",
+        "九、真实性与安全"
+      ],
+      "kind": "resource",
+      "domains": [
+        "general"
+      ],
+      "presets": [
+        "general_blacktalk"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h000",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 1,
+      "heading": "历代刑法考式考据、辨名与按断资源",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h001",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "一、三种相近资源的区分",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "一、三种相近资源的区分"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h002",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "二、沿革叙述词",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "二、沿革叙述词"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h003",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "三、名实辨析词",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "三、名实辨析词"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h004",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "四、按断评断词",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "四、按断评断词"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h005",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "五、慎刑与改律评价词（按断式价值表达）",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "五、慎刑与改律评价词（按断式价值表达）"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h006",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "六、句法家族",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "六、句法家族"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h007",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 3,
+      "heading": "F-T1 沿革三段式",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "六、句法家族",
+        "F-T1 沿革三段式"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h008",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 3,
+      "heading": "F-T2 名实辨析式",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "六、句法家族",
+        "F-T2 名实辨析式"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h009",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 3,
+      "heading": "F-T3 按断评断式",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "六、句法家族",
+        "F-T3 按断评断式"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h010",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 3,
+      "heading": "F-T4 古今会通式",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "六、句法家族",
+        "F-T4 古今会通式"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h011",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 3,
+      "heading": "F-T5 损益评断式",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "六、句法家族",
+        "F-T5 损益评断式"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h012",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "七、历史语境限制",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "七、历史语境限制"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r13.h013",
+      "file": "13_lexicon_traditional_appellate.md",
+      "source": "13",
+      "level": 2,
+      "heading": "八、示范片段",
+      "heading_path": [
+        "历代刑法考式考据、辨名与按断资源",
+        "八、示范片段"
+      ],
+      "kind": "historical_lexicon",
+      "domains": [
+        "legal_history",
+        "criminal"
+      ],
+      "presets": [
+        "traditional_law",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h000",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 1,
+      "heading": "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h001",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "一、大理院判旨式核心表达",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "一、大理院判旨式核心表达"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h002",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "二、否定、限制与排斥表达家族",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "二、否定、限制与排斥表达家族"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h003",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "三、贬义与责难词（高门控）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "三、贬义与责难词（高门控）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h004",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "四、解释例函复式表达",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "四、解释例函复式表达"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h005",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "句法家族",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "四、解释例函复式表达",
+        "句法家族"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h006",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "历史限定词面（仅 `republican_judgment`、`source_bound` 或明确要求）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "四、解释例函复式表达",
+        "历史限定词面（仅 `republican_judgment`、`source_bound` 或明确要求）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h007",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "五、审判厅判牍式表达",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "五、审判厅判牍式表达"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h008",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "证据批驳词组",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "五、审判厅判牍式表达",
+        "证据批驳词组"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h009",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "“何以—岂能—足征”推断式责难",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "五、审判厅判牍式表达",
+        "“何以—岂能—足征”推断式责难"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h010",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "批词式结论模板库",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "五、审判厅判牍式表达",
+        "批词式结论模板库"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h011",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "六、当代裁判语域（裁判书语体对照）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h012",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "1. 采信强度梯度（证据评价）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "1. 采信强度梯度（证据评价）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h013",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "2. 证明力指向（引据公式）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "2. 证明力指向（引据公式）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h014",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "3. 双重否定情态（高风险）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "3. 双重否定情态（高风险）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h015",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "4. 诉讼行为（当事人端）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "4. 诉讼行为（当事人端）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h016",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "5. 裁判动作（裁判者端，严格门控）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "5. 裁判动作（裁判者端，严格门控）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h017",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "6. 程序概念",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "6. 程序概念"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h018",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "7. 量刑叙述（刑法裁判端）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "7. 量刑叙述（刑法裁判端）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h019",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 3,
+      "heading": "8. 时间推进与结构路标",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "六、当代裁判语域（裁判书语体对照）",
+        "8. 时间推进与结构路标"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h020",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "七、民国司法程序词（历史限定）",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "七、民国司法程序词（历史限定）"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h021",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "八、高风险词表与门控",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "八、高风险词表与门控"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r14.h022",
+      "file": "14_lexicon_judicial_archival.md",
+      "source": "14",
+      "level": 2,
+      "heading": "九、组合规则",
+      "heading_path": [
+        "裁判语域词库：判旨式、解释例函复式、判牍式与当代裁判语体",
+        "九、组合规则"
+      ],
+      "kind": "judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h000",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 1,
+      "heading": "法学序言与价值修辞资源",
+      "heading_path": [
+        "法学序言与价值修辞资源"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h001",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "一、两类资源的分层",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "一、两类资源的分层"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h002",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "A. 可跨历史语境调用的修辞机制（第二至七节）",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "一、两类资源的分层",
+        "A. 可跨历史语境调用的修辞机制（第二至七节）"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h003",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "B. 历史语境限定表达（第八节）",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "一、两类资源的分层",
+        "B. 历史语境限定表达（第八节）"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h004",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "二、成语与四字格库（跨时代，按功能分组）",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "二、成语与四字格库（跨时代，按功能分组）"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h005",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "1. 治学与论辩态度",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "二、成语与四字格库（跨时代，按功能分组）",
+        "1. 治学与论辩态度"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h006",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "2. 犹豫与确信的张力",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "二、成语与四字格库（跨时代，按功能分组）",
+        "2. 犹豫与确信的张力"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h007",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "3. 浅见与妄议（自谦或批评）",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "二、成语与四字格库（跨时代，按功能分组）",
+        "3. 浅见与妄议（自谦或批评）"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h008",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "4. 解释与文本",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "二、成语与四字格库（跨时代，按功能分组）",
+        "4. 解释与文本"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h009",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "5. 劳作与时光",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "二、成语与四字格库（跨时代，按功能分组）",
+        "5. 劳作与时光"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h010",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "三、价值表达库",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "三、价值表达库"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h011",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "四、修辞结构",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "四、修辞结构"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h012",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "1. 对偶",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "四、修辞结构",
+        "1. 对偶"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h013",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "2. 排比与层叠",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "四、修辞结构",
+        "2. 排比与层叠"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h014",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "3. 递进与回环",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "四、修辞结构",
+        "3. 递进与回环"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h015",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "五、段落机制",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "五、段落机制"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h016",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "1. 开篇蓄势",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "五、段落机制",
+        "1. 开篇蓄势"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h017",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "2. 问题意识",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "五、段落机制",
+        "2. 问题意识"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h018",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "3. 价值转折",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "五、段落机制",
+        "3. 价值转折"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h019",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "4. 结尾收束",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "五、段落机制",
+        "4. 结尾收束"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h020",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "六、句法家族",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h021",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P1 事实不当然评价",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P1 事实不当然评价"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h022",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P2 表面—实质二分",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P2 表面—实质二分"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h023",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P3 否定—重构（价值版）",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P3 否定—重构（价值版）"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h024",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P4 价值张力式",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P4 价值张力式"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h025",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P5 多元解释式",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P5 多元解释式"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h026",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P6 制度文明抬升式",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P6 制度文明抬升式"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h027",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P7 自谦炫技式",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P7 自谦炫技式"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h028",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 3,
+      "heading": "F-P8 失败审美式",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "六、句法家族",
+        "F-P8 失败审美式"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h029",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "七、修辞接口（与其他语体的组合规则）",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "七、修辞接口（与其他语体的组合规则）"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h030",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "八、历史语境限定表达（清末民国序文与凡例语汇）",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "八、历史语境限定表达（清末民国序文与凡例语汇）"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r15.h031",
+      "file": "15_legal_preface_rhetoric.md",
+      "source": "15",
+      "level": 2,
+      "heading": "九、语义漂移风险与剂量控制",
+      "heading_path": [
+        "法学序言与价值修辞资源",
+        "九、语义漂移风险与剂量控制"
+      ],
+      "kind": "rhetoric",
+      "domains": [
+        "legal_theory",
+        "general"
+      ],
+      "presets": [
+        "preface_rhetoric",
+        "absurd_overkill"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h000",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 1,
+      "heading": "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h001",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "一、采信强度梯度（证据评价）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "一、采信强度梯度（证据评价）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h002",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "强肯定",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "一、采信强度梯度（证据评价）",
+        "强肯定"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h003",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "弱肯定（双重否定缓冲）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "一、采信强度梯度（证据评价）",
+        "弱肯定（双重否定缓冲）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h004",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "弱否定",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "一、采信强度梯度（证据评价）",
+        "弱否定"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h005",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "强否定",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "一、采信强度梯度（证据评价）",
+        "强否定"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h006",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "二、引据公式（可／足／堪三系与复合式）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "二、引据公式（可／足／堪三系与复合式）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h007",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "三、双重否定情态（高风险）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "三、双重否定情态（高风险）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h008",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "四、合法性判断词",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "四、合法性判断词"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h009",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "五、裁判动作（裁判者端，严格门控）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "五、裁判动作（裁判者端，严格门控）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h010",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "六、诉讼行为（当事人端）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "六、诉讼行为（当事人端）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h011",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "七、程序概念与裁判文书结构",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "七、程序概念与裁判文书结构"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h012",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "八、时间推进与时序词",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "八、时间推进与时序词"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h013",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "九、结构路标与连接词",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h014",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "叙明系",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "叙明系"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h015",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "指称系",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "指称系"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h016",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "转折系",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "转折系"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h017",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "推究系",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "推究系"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h018",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "衡量系",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "衡量系"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h019",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "程度与断定系",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "程度与断定系"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h020",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "并列、让步与其他",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "并列、让步与其他"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h021",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 3,
+      "heading": "段落标记",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "九、结构路标与连接词",
+        "段落标记"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment",
+        "classical_legalese"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h022",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "十、指代词",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "十、指代词"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h023",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "十一、量刑叙述（刑法裁判端）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "十一、量刑叙述（刑法裁判端）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "criminal",
+        "procedure"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h024",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "十二、归责表述（高风险）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "十二、归责表述（高风险）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h025",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "十三、家事裁判微型包（部门法限定）",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "十三、家事裁判微型包（部门法限定）"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "family",
+        "civil",
+        "procedure"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h026",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "十四、未收录项与排除理由",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "十四、未收录项与排除理由"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    },
+    {
+      "id": "r16.h027",
+      "file": "16_lexicon_judicial_register_official.md",
+      "source": "16",
+      "level": 2,
+      "heading": "附：与 14 号文件的分工",
+      "heading_path": [
+        "当代裁判语域官方全量词库（裁判通俗化用语汇整表·逆向）",
+        "附：与 14 号文件的分工"
+      ],
+      "kind": "official_judicial_lexicon",
+      "domains": [
+        "procedure",
+        "general"
+      ],
+      "presets": [
+        "judicial_formal",
+        "republican_judgment"
+      ],
+      "modes": [
+        "rewrite",
+        "expand",
+        "analyze"
+      ]
+    }
+  ]
+}

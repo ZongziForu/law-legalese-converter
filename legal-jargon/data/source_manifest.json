@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "migration": "markdown-tables-to-jsonl-with-reversible-markers",
+  "authorized_overlays": [
+    {
+      "file": "01_parameters_and_routing.md",
+      "old": "路由是声明式指导，不是程序化计算。按输入的领域、语体请求与历史语境，以下列自然语言优先级调用资源文件；不得做权重相加或数值抽样。",
+      "new": "路由是声明式权限边界。先按输入的领域、语体请求与历史语境确定允许的资源，再由 `scripts/retrieve.py` 在允许范围内排序并组成小素材包。排序分值只决定优先召回顺序，不得把禁用资源变为可用资源，也不得覆盖模式、历史、主体端、情态方向或评价来源门控。"
+    },
+    {
+      "file": "04_function_tags.md",
+      "old": "5. **运行时不全库加载**：按标签召回小词包，而非加载全部词库",
+      "new": "5. **运行时不全库加载**：用 `scripts/retrieve.py --tag TAG_ID` 或语义关键词召回小词包，不得直接读取 `data/records.jsonl`"
+    },
+    {
+      "file": "12_runtime_guardrails.md",
+      "old": "命题核 → 2—4个低风险机制 → 生成 → 二元保真与篇幅检查",
+      "new": "命题核 → 检索小素材包 → 2—4个低风险机制 → 生成 → 二元保真与篇幅检查"
+    },
+    {
+      "file": "12_runtime_guardrails.md",
+      "old": "命题核 → 模式账本 → 资源门控 → 结构规划 → 生成",
+      "new": "命题核 → 模式账本 → 资源门控 → 检索小素材包 → 结构规划 → 生成"
+    },
+    {
+      "file": "12_runtime_guardrails.md",
+      "old": "",
+      "new": "\n首包不足时依次补关键词、定点召回、使用 `--broaden`；不得直接加载完整 JSONL 或整份大型词库。\n"
+    }
+  ],
+  "migrated_prefixes": [
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "13",
+    "14",
+    "15",
+    "16"
+  ],
+  "files": {
+    "01_parameters_and_routing.md": {
+      "sha256": "aed56c21fb9581a1bc596c00aa1c24b92a0aee5c6b225e14e7a485ea35e294dd",
+      "bytes": 14167,
+      "lines": 364,
+      "trailing_newline": true,
+      "tables_migrated": 0,
+      "entries_migrated": 0,
+      "chunks": 30
+    },
+    "02_conversion_mechanisms.md": {
+      "sha256": "278015b6f7932067ba89f31e636497526f70c9e622af57575ff19b6ac3cf3e13",
+      "bytes": 12884,
+      "lines": 331,
+      "trailing_newline": true,
+      "tables_migrated": 0,
+      "entries_migrated": 0,
+      "chunks": 35
+    },
+    "03_sentence_templates.md": {
+      "sha256": "2221bf28643d228133b4e77c3402e49eff663d4cddcac6a390c4531f51f4824f",
+      "bytes": 15588,
+      "lines": 397,
+      "trailing_newline": true,
+      "tables_migrated": 1,
+      "entries_migrated": 9,
+      "chunks": 47
+    },
+    "04_function_tags.md": {
+      "sha256": "6e92c1906986ff9372d4c1936c7448282a2cdca2c7cde0981edc392716445e38",
+      "bytes": 5737,
+      "lines": 102,
+      "trailing_newline": true,
+      "tables_migrated": 4,
+      "entries_migrated": 49,
+      "chunks": 8
+    },
+    "05_lexicon_general.md": {
+      "sha256": "c204088209f221c6f2b5318baace129c385660d2c96022ebccc4c69f0b41c6ee",
+      "bytes": 17882,
+      "lines": 294,
+      "trailing_newline": true,
+      "tables_migrated": 14,
+      "entries_migrated": 211,
+      "chunks": 15
+    },
+    "06_lexicon_criminal_law.md": {
+      "sha256": "1d8ae9b4c830315ffd1ae67111afafdf52d4840d117cdc9d19e71c9a490c805f",
+      "bytes": 14918,
+      "lines": 248,
+      "trailing_newline": true,
+      "tables_migrated": 8,
+      "entries_migrated": 155,
+      "chunks": 14
+    },
+    "07_lexicon_civil_property_obligations.md": {
+      "sha256": "45d39db87ea4c92851877e834cadad946a67e4badebd8baa1fb5eae03e419e61",
+      "bytes": 20436,
+      "lines": 305,
+      "trailing_newline": true,
+      "tables_migrated": 12,
+      "entries_migrated": 218,
+      "chunks": 16
+    },
+    "08_style_modern_doctrinal.md": {
+      "sha256": "241ac6303803871ae66dc31985ff5762a7c572f1b61e267c2e846b025e9fc123",
+      "bytes": 7300,
+      "lines": 174,
+      "trailing_newline": true,
+      "tables_migrated": 3,
+      "entries_migrated": 33,
+      "chunks": 12
+    },
+    "09_style_old_school_civilist.md": {
+      "sha256": "659d7c770922bf60a06c7658ec02f703388bed99a28051611c0b2afa2125336d",
+      "bytes": 6776,
+      "lines": 175,
+      "trailing_newline": true,
+      "tables_migrated": 2,
+      "entries_migrated": 15,
+      "chunks": 16
+    },
+    "10_style_classical_and_judicial.md": {
+      "sha256": "cc193f1ff50722fdc43903095e7392c87a44fdb71f2f6ca4ce07f0e312ce34ff",
+      "bytes": 5800,
+      "lines": 155,
+      "trailing_newline": true,
+      "tables_migrated": 5,
+      "entries_migrated": 27,
+      "chunks": 11
+    },
+    "11_examples.md": {
+      "sha256": "b9de932f8010d5bfc2d2a43305ce68a453756e6b508a8bf0c5815190562f0552",
+      "bytes": 11254,
+      "lines": 271,
+      "trailing_newline": true,
+      "tables_migrated": 0,
+      "entries_migrated": 0,
+      "chunks": 21
+    },
+    "12_runtime_guardrails.md": {
+      "sha256": "68650893c5ab72ac569aca1ea756dcae383d5994b9955242a76e9d393aa22955",
+      "bytes": 4601,
+      "lines": 171,
+      "trailing_newline": true,
+      "tables_migrated": 0,
+      "entries_migrated": 0,
+      "chunks": 17
+    },
+    "13_lexicon_traditional_appellate.md": {
+      "sha256": "2e94731fe11bbcf4e42fe869684c53cf4d49f1e90fe46acc0b6bf5656733a3ad",
+      "bytes": 9996,
+      "lines": 174,
+      "trailing_newline": true,
+      "tables_migrated": 5,
+      "entries_migrated": 40,
+      "chunks": 14
+    },
+    "14_lexicon_judicial_archival.md": {
+      "sha256": "a1d57758168ce61b3d5bfd99731c621cc5901b58c8afcc342bec2dd516506c0f",
+      "bytes": 16480,
+      "lines": 268,
+      "trailing_newline": true,
+      "tables_migrated": 5,
+      "entries_migrated": 63,
+      "chunks": 23
+    },
+    "15_legal_preface_rhetoric.md": {
+      "sha256": "57cf2b15f534cbe4277caf08ca26d4b35507f26661342d0eeb332108641400ed",
+      "bytes": 14753,
+      "lines": 291,
+      "trailing_newline": true,
+      "tables_migrated": 9,
+      "entries_migrated": 61,
+      "chunks": 32
+    },
+    "16_lexicon_judicial_register_official.md": {
+      "sha256": "92c875cee925515c365483456e29818c0e52233d55c81a1b4e24e347363ee22d",
+      "bytes": 15122,
+      "lines": 384,
+      "trailing_newline": true,
+      "tables_migrated": 23,
+      "entries_migrated": 211,
+      "chunks": 28
+    }
+  },
+  "totals": {
+    "tables": 91,
+    "entries": 1092,
+    "chunks": 339
+  }
+}

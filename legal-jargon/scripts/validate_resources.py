@@ -11,6 +11,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from retrieve import build_retrieval_units
+
 
 CHUNK_MARKER = re.compile(r"^<!-- chunk: ([a-z0-9.]+) -->$")
 TABLE_MARKER = re.compile(r"^<!-- table-data: ([a-z0-9.]+) records=(\d+) -->$")
@@ -87,6 +89,98 @@ def validate_schema(records: list[dict], manifest: dict) -> tuple[list[dict], li
     for table in tables:
         check(counts[table["id"]] == table["row_count"], f"row count mismatch: {table['id']}")
     return tables, entries
+
+
+def validate_retrieval_policy(policy: dict, entries: list[dict], catalog: dict) -> list[dict]:
+    check(policy.get("version") == 2, "unsupported retrieval policy version")
+    table_ids = {item["source_table"] for item in entries}
+    entry_ids = {item["id"] for item in entries}
+    available_units: set[str] = set()
+    for item in entries:
+        pairs = item.get("pairs", [])
+        if pairs:
+            available_units.update(f"{item['id']}#p{index}" for index in range(1, len(pairs) + 1))
+        else:
+            available_units.add(item["id"])
+    check(
+        set(policy.get("table_policies", {})) <= table_ids,
+        "retrieval policy references a missing table",
+    )
+    check(
+        set(policy.get("record_policies", {})) <= entry_ids,
+        "retrieval policy references a missing record",
+    )
+    check(
+        set(policy.get("unit_policies", {})) <= available_units,
+        "retrieval policy references a missing pair/unit",
+    )
+    chunk_ids = {item["id"] for item in catalog.get("chunks", [])}
+    policy_chunk_ids = {
+        chunk_id
+        for group in policy.get("chunk_policy_groups", [])
+        for chunk_id in group.get("ids", [])
+    }
+    check(policy_chunk_ids <= chunk_ids, "retrieval policy references a missing chunk")
+
+    effective = build_retrieval_units(entries, policy)
+    effective_ids = [item["id"] for item in effective]
+    check(len(effective_ids) == len(set(effective_ids)), "duplicate effective retrieval unit id")
+    valid_tags = {
+        item.get("fields", {}).get("标签ID")
+        for item in entries
+        if item.get("source_table") in {"r04.t001", "r04.t002"}
+    }
+    valid_tags.discard(None)
+    valid_profiles = set(policy.get("preset_defaults", {}))
+    for item in effective:
+        risks = set(item.get("risk_flags", []))
+        if "excluded_from_generation" not in risks:
+            check(bool(item.get("tags")), f"effective unit lacks function tag: {item['id']}")
+        check(set(item.get("tags", [])) <= valid_tags, f"effective unit has unknown tag: {item['id']}")
+        check(
+            not any(value.startswith(("SEM-", "SYNTAX-")) for value in risks),
+            f"function tag was stored as a risk flag: {item['id']}",
+        )
+        check(
+            set(item.get("portable_profiles", [])) <= valid_profiles,
+            f"effective unit has unknown portable profile: {item['id']}",
+        )
+        check(
+            set(item.get("modes", [])) <= {"rewrite", "expand", "analyze"},
+            f"effective unit has invalid mode: {item['id']}",
+        )
+        check(
+            item.get("direction") in {None, "positive", "negative", "compliant", "noncompliant", "no_rule", "not_prohibited"},
+            f"effective unit has invalid direction: {item['id']}",
+        )
+        if item.get("required_cues"):
+            check(
+                all(isinstance(value, str) and value.strip() for value in item["required_cues"]),
+                f"effective unit has an empty semantic cue: {item['id']}",
+            )
+            check(
+                item.get("reversibility") == "conditional",
+                f"semantic-cue unit is not conditional: {item['id']}",
+            )
+        if item.get("safe_backtranslation"):
+            check(item.get("pairs"), f"safe backtranslation lacks a term pair: {item['id']}")
+            check(
+                item["pairs"][0].get("anchor") == item["safe_backtranslation"],
+                f"safe backtranslation was not applied: {item['id']}",
+            )
+        strength = item.get("strength")
+        if isinstance(strength, int):
+            check(1 <= strength <= 5, f"effective strength outside 1..5: {item['id']}")
+        if item.get("reversibility") == "non_reversible":
+            check("non_reversible_mapping" in risks, f"non-reversible unit lacks hard gate: {item['id']}")
+
+    official = [item for item in effective if item.get("official_backtranslation")]
+    check(len(official) == 226, "official pairs were not split into 226 retrieval units")
+    check(
+        all(item.get("reversibility") in {"exact", "conditional", "non_reversible"} for item in official),
+        "official pair lacks a valid reversibility class",
+    )
+    return effective
 
 
 def validate_catalog(root: Path, catalog: dict, manifest: dict) -> None:
@@ -185,6 +279,12 @@ def retrieve(root: Path, arguments: list[str]) -> dict:
 
 
 def validate_retrieval(root: Path) -> list[dict]:
+    def ids(packet: dict) -> set[str]:
+        return {item["id"] for item in packet["records"]}
+
+    def terms(packet: dict) -> list[str]:
+        return [pair.get("term", "") for item in packet["records"] for pair in item.get("pairs", [])]
+
     cases = [
         (["--query", "这个说法没有充分理由", "--keywords", "否定 重构 妥当", "--domain", "general", "--preset", "general_blacktalk"], "05", None),
         (["--query", "一直控制这套设备", "--keywords", "占有 事实管领 物权", "--domain", "property", "--preset", "old_school_civilist"], "07", ("物权", "占有")),
@@ -243,6 +343,238 @@ def validate_retrieval(root: Path) -> list[dict]:
     )
     targeted = retrieve(root, ["--domain", "procedure", "--preset", "judicial_formal", "--chunk-id", "r16.h008", "--source", "16"])
     check(any(item["id"] == "r16.h008" for item in targeted["chunks"]), "exact chunk retrieval failed")
+
+    portable = retrieve(
+        root,
+        ["--query", "简言之，这与本案没有关系", "--keywords", "简言之 没有关系", "--domain", "general", "--preset", "general_blacktalk"],
+    )
+    check("质言之" in terms(portable) and "无涉" in terms(portable), "portable source-16 terms remain siloed")
+    split = next(item for item in portable["records"] if item["id"] == "r16.t018.e007#p2")
+    check(terms({"records": [split]}) == ["无涉"], "multi-pair official row was not isolated")
+
+    neutral_actor = retrieve(
+        root,
+        ["--query", "参考前述材料", "--keywords", "参酌 参考", "--domain", "general", "--preset", "general_blacktalk"],
+    )
+    check("参酌" in terms(neutral_actor), "neutral portable term remained trapped behind adjudicator actor scope")
+
+    legal_arguments = [
+        "--query", "这个做法符合法律规定", "--keywords", "符合法律规定",
+        "--mode", "rewrite", "--domain", "general", "--preset", "general_blacktalk",
+    ]
+    legal_closed = retrieve(root, legal_arguments)
+    legal_open = retrieve(root, [*legal_arguments, "--direction", "compliant"])
+    check("r16.t007.e001" not in ids(legal_closed), "legality term bypassed direction gate")
+    check("r16.t007.e001" in ids(legal_open), "legality term failed its explicit direction gate")
+
+    evaluation_arguments = [
+        "--query", "这种说法不能作为准则", "--keywords", "不能作为准则 未可为训",
+        "--mode", "rewrite", "--domain", "general", "--preset", "general_blacktalk",
+    ]
+    evaluation_closed = retrieve(root, evaluation_arguments)
+    evaluation_open = retrieve(root, [*evaluation_arguments, "--source-evaluation"])
+    check("未可为训" not in terms(evaluation_closed), "evaluative term bypassed source gate")
+    check("未可为训" in terms(evaluation_open), "portable source-13 evaluation term remained siloed")
+
+    authority_arguments = [
+        "--query", "这背离了立法原意", "--keywords", "立法之本意 立法原意",
+        "--mode", "rewrite", "--domain", "legal_theory", "--preset", "doctrinal_dense",
+    ]
+    authority_closed = retrieve(root, authority_arguments)
+    authority_open = retrieve(root, [*authority_arguments, "--authority-policy", "provided_only"])
+    check("立法之本意" not in terms(authority_closed), "authority-dependent term bypassed authority policy")
+    check("立法之本意" in terms(authority_open), "authority-dependent term failed provided authority policy")
+
+    foreign_arguments = [
+        "--query", "构成要件", "--keywords", "Tatbestand 构成要件",
+        "--mode", "rewrite", "--domain", "legal_theory", "--preset", "doctrinal_dense",
+    ]
+    foreign_closed = retrieve(root, [*foreign_arguments, "--foreign-terms", "0"])
+    foreign_open = retrieve(root, [*foreign_arguments, "--foreign-terms", "1"])
+    check("r08.t001.e001" not in ids(foreign_closed), "foreign term bypassed foreign_terms=0")
+    check("r08.t001.e001" in ids(foreign_open), "foreign term failed foreign_terms opt-in")
+
+    method_arguments = [
+        "--query", "解释不能只看字面", "--keywords", "文义 目的 解释 续造",
+        "--domain", "legal_theory", "--preset", "doctrinal_dense",
+    ]
+    method_rewrite = retrieve(root, [*method_arguments, "--mode", "rewrite"])
+    method_expand = retrieve(root, [*method_arguments, "--mode", "expand"])
+    check(not any(value.startswith("r08.t002") for value in ids(method_rewrite)), "methodology mechanism leaked into rewrite")
+    check(any(value.startswith("r08.t002") for value in ids(method_expand)), "methodology mechanism missing from expand")
+
+    history_arguments = [
+        "--query", "古代刑名制度的沿革", "--keywords", "沿革 古者 后世",
+        "--domain", "legal_history", "--preset", "classical_legalese",
+    ]
+    history_closed = retrieve(root, history_arguments)
+    history_open = retrieve(root, [*history_arguments, "--historical-register", "traditional_law"])
+    check(not any(value.startswith("r13.t002") for value in ids(history_closed)), "historical terms leaked into contemporary classical style")
+    check(any(value.startswith("r13.t002") for value in ids(history_open)), "historical terms failed explicit historical register")
+
+    broadened_packet = retrieve(
+        root,
+        [
+            "--query", "欠钱不还，应当承担责任", "--keywords", "债务 履行 责任",
+            "--mode", "rewrite", "--domain", "obligation", "--preset", "old_school_civilist",
+            "--broaden", "--record-limit", "24",
+        ],
+    )
+    broadened_sources = {item["source"][:2] for item in broadened_packet["records"]}
+    broadened_chunks = {item["id"] for item in broadened_packet["chunks"]}
+    check(len(broadened_packet["records"]) <= 24, "explicit record limit was not a hard ceiling")
+    check(not broadened_sources.intersection({"06", "08", "15"}), "broaden crossed a domain/profile hard route")
+    check("r11.h008" not in broadened_chunks, "broaden leaked a judicial example into old-school civil style")
+    check(
+        not broadened_chunks.intersection({f"r03.h{index:03d}" for index in range(10, 17)}),
+        "rewrite packet leaked expand-only sentence templates",
+    )
+
+    double_arguments = [
+        "--query", "这个说法并非毫无根据", "--keywords", "尚非无据 弱肯定",
+        "--domain", "procedure", "--preset", "judicial_formal", "--direction", "positive",
+    ]
+    double_closed = retrieve(root, [*double_arguments, "--double-negation-budget", "0"])
+    double_open = retrieve(root, [*double_arguments, "--double-negation-budget", "1"])
+    check(not any(term.startswith("尚非无") for term in terms(double_closed)), "double negation bypassed dosage gate")
+    check(any(term.startswith("尚非无") for term in terms(double_open)), "double negation failed dosage opt-in")
+
+    old_school_double = retrieve(
+        root,
+        [
+            "--query", "这个说法并非毫无根据", "--keywords", "并非毫无根据 尚非无据",
+            "--mode", "rewrite", "--domain", "civil", "--preset", "old_school_civilist",
+            "--direction", "positive",
+        ],
+    )
+    check(any(term.startswith("尚非无") for term in terms(old_school_double)), "double negation remained siloed from old-school civil style")
+
+    general_double_arguments = [
+        "--query", "这个说法并非毫无根据", "--keywords", "并非毫无根据 尚非无据",
+        "--mode", "rewrite", "--domain", "general", "--preset", "general_blacktalk",
+        "--direction", "positive",
+    ]
+    general_double_closed = retrieve(root, general_double_arguments)
+    general_double_open = retrieve(
+        root,
+        [*general_double_arguments, "--archaism", "3", "--double-negation-budget", "1"],
+    )
+    check(not any(term.startswith("尚非无") for term in terms(general_double_closed)), "modern style bypassed double-negation archaism gate")
+    check(any(term.startswith("尚非无") for term in terms(general_double_open)), "modern style failed explicit double-negation opt-in")
+
+    high_double_arguments = [
+        "--query", "这个结论似乎不是没有理由", "--keywords", "似乎不是没有 尚难谓非",
+        "--mode", "rewrite", "--domain", "civil", "--preset", "old_school_civilist",
+        "--direction", "positive",
+    ]
+    high_double_closed = retrieve(root, high_double_arguments)
+    high_double_open = retrieve(root, [*high_double_arguments, "--allow-high-risk"])
+    check("尚难谓非" not in terms(high_double_closed), "high-risk double negation bypassed opt-in")
+    check("尚难谓非" in terms(high_double_open), "high-risk double negation failed explicit opt-in")
+
+    record_arguments = [
+        "--query", "已有材料证明", "--keywords", "业据 已据 已有",
+        "--domain", "civil", "--preset", "old_school_civilist",
+    ]
+    record_closed = retrieve(root, record_arguments)
+    record_open = retrieve(root, [*record_arguments, "--record-context"])
+    check("业据" not in terms(record_closed), "record-dependent term bypassed record context gate")
+    check("业据" in terms(record_open), "record-dependent term failed explicit record context")
+
+    taiwan_arguments = [
+        "--query", "婚姻已经破裂", "--keywords", "婚姻破绽 婚姻破裂",
+        "--domain", "family", "--preset", "judicial_formal", "--actor-scope", "family_court",
+    ]
+    taiwan_closed = retrieve(root, taiwan_arguments)
+    taiwan_open = retrieve(root, [*taiwan_arguments, "--jurisdiction", "Taiwan"])
+    check("婚姻破绽" not in terms(taiwan_closed), "Taiwan-specific term bypassed jurisdiction gate")
+    check("婚姻破绽" in terms(taiwan_open), "Taiwan-specific term failed jurisdiction opt-in")
+
+    pronoun_arguments = [
+        "--query", "他们已经提出意见", "--keywords", "渠等 他们",
+        "--domain", "procedure", "--preset", "judicial_formal",
+    ]
+    pronoun_closed = retrieve(root, [*pronoun_arguments, "--archaism", "0"])
+    pronoun_open = retrieve(root, [*pronoun_arguments, "--archaism", "3"])
+    check("渠等" not in terms(pronoun_closed), "archaic pronoun bypassed archaism gate")
+    check("渠等" in terms(pronoun_open), "archaic pronoun failed archaism opt-in")
+
+    supervision_closed = retrieve(
+        root,
+        [
+            "--query", "甲与乙共同办理此事", "--keywords", "与 共同办理",
+            "--mode", "rewrite", "--domain", "general", "--preset", "old_school_civilist",
+        ],
+    )
+    supervision_open = retrieve(
+        root,
+        [
+            "--query", "甲监督乙共同办理此事", "--keywords", "监督共同办理",
+            "--mode", "rewrite", "--domain", "general", "--preset", "old_school_civilist",
+        ],
+    )
+    check("督同" not in terms(supervision_closed), "督同 was recalled from a bare conjunction")
+    check("督同" in terms(supervision_open), "督同 failed its supervisory semantic cue")
+    supervision_record = next(item for item in supervision_open["records"] if "督同" in terms({"records": [item]}))
+    check(
+        supervision_record["pairs"][0]["anchor"].startswith("监督并会同"),
+        "督同 did not use its safe backtranslation anchor",
+    )
+
+    not_prohibited_base = [
+        "--query", "该事项法律并未禁止", "--keywords", "法律并未禁止",
+        "--mode", "rewrite", "--domain", "general", "--preset", "general_blacktalk",
+        "--archaism", "3", "--double-negation-budget", "1", "--allow-high-risk",
+    ]
+    not_prohibited_wrong = retrieve(root, [*not_prohibited_base, "--direction", "compliant"])
+    not_prohibited_open = retrieve(root, [*not_prohibited_base, "--direction", "not_prohibited"])
+    check("即非法所不许" not in terms(not_prohibited_wrong), "non-prohibition was conflated with positive compliance")
+    check("即非法所不许" in terms(not_prohibited_open), "non-prohibition expression failed its exact direction gate")
+    not_prohibited_record = next(
+        item for item in not_prohibited_open["records"] if "即非法所不许" in terms({"records": [item]})
+    )
+    check(
+        "法律并未禁止" in not_prohibited_record["pairs"][0]["anchor"],
+        "non-prohibition expression retained the overbroad official anchor",
+    )
+
+    support_closed = retrieve(
+        root,
+        [
+            "--query", "还有其他证据", "--keywords", "其他证据",
+            "--mode", "rewrite", "--domain", "general", "--preset", "general_blacktalk",
+            "--source-evaluation",
+        ],
+    )
+    support_open = retrieve(
+        root,
+        [
+            "--query", "该材料可以作为补充证明", "--keywords", "补充证明",
+            "--mode", "rewrite", "--domain", "general", "--preset", "general_blacktalk",
+            "--source-evaluation",
+        ],
+    )
+    check("r16.t005.e021" not in ids(support_closed), "佐证 was recalled from bare other-evidence wording")
+    check("r16.t005.e021" in ids(support_open), "佐证 failed its supplemental-proof semantic cue")
+
+    non_reversible_arguments = [
+        "--query", "假执行", "--keywords", "假执行", "--domain", "procedure",
+        "--preset", "judicial_formal", "--source", "16", "--jurisdiction", "Taiwan",
+    ]
+    non_reversible_closed = retrieve(root, non_reversible_arguments)
+    non_reversible_open = retrieve(root, [*non_reversible_arguments, "--include-non-reversible"])
+    check("假执行" not in terms(non_reversible_closed), "truly non-reversible mapping entered normal generation")
+    check("假执行" in terms(non_reversible_open), "non-reversible mapping unavailable for explicit audit")
+
+    invalid_budget = subprocess.run(
+        [
+            sys.executable, str(root / "scripts" / "retrieve.py"), "--archaism", "2",
+            "--double-negation-budget", "2",
+        ],
+        capture_output=True,
+        text=True,
+    )
+    check(invalid_budget.returncode != 0, "double-negation budget 2 ignored the archaism floor")
     return reports
 
 
@@ -251,8 +583,10 @@ def main() -> int:
     manifest = json.loads((root / "data" / "source_manifest.json").read_text(encoding="utf-8"))
     catalog = json.loads((root / "data" / "catalog.json").read_text(encoding="utf-8"))
     routes = json.loads((root / "data" / "routes.json").read_text(encoding="utf-8"))
+    policy = json.loads((root / "data" / "retrieval_policy.json").read_text(encoding="utf-8"))
     records = load_records(root / "data" / "records.jsonl")
     _, entries = validate_schema(records, manifest)
+    effective = validate_retrieval_policy(policy, entries, catalog)
     validate_reconstruction(root, records, manifest)
     validate_catalog(root, catalog, manifest)
     validate_routes(routes, catalog, entries)
@@ -270,6 +604,7 @@ def main() -> int:
         "tables": manifest["totals"]["tables"],
         "entries": manifest["totals"]["entries"],
         "chunks": manifest["totals"]["chunks"],
+        "effective_units": len(effective),
         "source_16": {"rows": 211, "official_pairs": 226, "excluded_rows": 4},
         "retrieval_cases": reports,
     }

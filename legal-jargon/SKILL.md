@@ -222,15 +222,19 @@ python3 scripts/retrieve.py \
 
 `resource_profile` 默认与 `preset` 相同。历代刑法考式或序言修辞等只改变资源选择、不改变正式预设的请求，分别追加 `--profile traditional_law` 或 `--profile preface_rhetoric`。
 
-裁判语域必须判断素材属于何种主体端，并传入 `--actor-scope neutral|adjudicator|party|sentencing_adjudicator|family_court`。证据采信或合法性方向已经明确时，同时传入 `--direction positive|negative|compliant|noncompliant|no_rule`；`rewrite` 不得省略已知方向后再从相反候选中自行挑选。
+裁判语域必须判断素材属于何种主体端，并传入 `--actor-scope neutral|adjudicator|party|sentencing_adjudicator|family_court`。证据采信或合法性方向已经明确时，同时传入 `--direction positive|negative|compliant|noncompliant|no_rule|not_prohibited`；其中 `not_prohibited` 只表示“法律未禁止”，不得提升为“有明确法律依据”。`rewrite` 不得省略已知方向后再从相反候选中自行挑选。
+
+检索参数必须与 `final_config` 一致：按需传入 `--archaism 0..5`、`--foreign-terms 0..5`、`--historical-register ...` 和 `--authority-policy none|provided_only|verified`。只有输入已经承载相应判断时，才能使用 `--source-evaluation`（评价或证据判断已有来源）、`--record-context`（案卷／前引材料确实存在）、`--allow-high-risk` 或具体 `--jurisdiction`。`--double-negation-budget 0|1|2` 是每段使用上限的检索许可；默认值随预设确定，设为 2 仅适用于古雅度不低于 3 且用户确有强化要求的情形。
+
+双重否定官方词条默认供裁判与民国判牍语体使用，也可在 `old_school_civilist`、`classical_legalese` 中按预算调用；`general_blacktalk`、`doctrinal_dense` 只有同时满足 `archaism>=3` 和 `double_negation_budget>=1` 时开放。高风险形式仍须 `--allow-high-risk`，肯定／否定方向不得互换。带有“语义召唤词”的条件词条，只有命题核或忠实提炼的检索词中出现相应关系时才可召回；不得为了取得词条而向 `--keywords` 填入原文不存在的监督关系、法律未禁止、补充证明等含义。
 
 只把脚本输出的小素材包投入上下文。若首包不足，按以下顺序渐进扩大，不得直接整库加载：
 
 1. 补充更准确的 `--keywords`；
 2. 用 `--heading`、`--tag`、`--source` 或 `--chunk-id` 定点召回；
-3. 最后使用 `--broaden` 扩大记录与片段上限。
+3. 最后使用 `--broaden` 扩大记录与片段上限；它不得越过既定资源路由、模式或风险门控，显式 `--record-limit`、`--chunk-limit` 始终是硬上限。
 
-检索排序只在路由允许的资源内选择素材，不能覆盖模式权限、历史限制、主体端、评价来源、情态方向或禁用条件。`data/catalog.json`、`data/routes.json` 和 `data/records.jsonl` 只供脚本使用。
+检索排序只在路由允许的资源内选择素材，不能覆盖模式权限、历史限制、主体端、评价来源、情态方向或禁用条件。`data/catalog.json`、`data/routes.json`、`data/retrieval_policy.json` 和 `data/records.jsonl` 只供脚本使用。
 
 ### 长文本检索与重复控制
 
@@ -254,7 +258,7 @@ python3 scripts/retrieve.py \
 - 示例：`references/11_examples.md`
 - 运行约束：`references/12_runtime_guardrails.md`
 
-所有 `references/*.md` 章节均有稳定 `chunk` 锚点；表格型离散素材已无损迁入 JSONL，原列、原行、来源章节和门控字段均保留。
+所有 `references/*.md` 章节均有稳定 `chunk` 锚点；表格型离散素材已无损迁入 JSONL，原列、原行、来源章节和门控字段均保留。检索时可将一行中的多个词对拆成独立单元，但不得改写或复制原始记录；跨语域开放由 `retrieval_policy.json` 的词条级许可完成。
 
 ---
 
@@ -272,7 +276,7 @@ python3 scripts/retrieve.py \
 
 任何模式均不得虚构外语术语、法谚、法条、判例、学者、书目、页码、历史材料或“通说”。
 
-使用 `16` 号官方词库时，只对实际采用的词条执行回译：将词条压缩为素材包中的官方锚点，再与 `proposition_core` 比较。回译后的主体、方向、情态或结论范围不一致时，撤回该词条；不得用多个相反强度的候选词互相抵消。
+使用 `16` 号官方词库时，只对实际采用的词条执行回译：将词条压缩为素材包中的回译锚点，再与 `proposition_core` 比较。`exact` 可按锚点等值回译；`conditional` 仅在附带方向、主体端、评价来源或语义召唤词等条件全部满足时使用，其中安全回译锚点优先于信息损失较大的原表锚点；`non_reversible` 默认不进入生成候选。回译后的主体、方向、情态或结论范围不一致时，撤回该词条；不得用多个相反强度的候选词互相抵消。
 
 ---
 

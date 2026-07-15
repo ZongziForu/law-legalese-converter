@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "defaults": {
     "record_limit": 32,
     "chunk_limit": 8,
@@ -158,7 +158,10 @@
   "profiles": {
     "general_blacktalk": {
       "record_sources": [
-        "05"
+        "05",
+        "16",
+        "13",
+        "14"
       ],
       "chunk_files": [
         "02"
@@ -167,7 +170,10 @@
     "doctrinal_dense": {
       "record_sources": [
         "08",
-        "05"
+        "05",
+        "16",
+        "13",
+        "14"
       ],
       "chunk_files": [
         "08"
@@ -177,7 +183,10 @@
       "record_sources": [
         "09",
         "07",
-        "05"
+        "05",
+        "16",
+        "13",
+        "14"
       ],
       "chunk_files": [
         "09"
@@ -209,7 +218,9 @@
       "record_sources": [
         "10",
         "05",
-        "16"
+        "16",
+        "13",
+        "14"
       ],
       "chunk_files": [
         "10"
@@ -239,7 +250,9 @@
       "record_sources": [
         "15",
         "08",
-        "05"
+        "05",
+        "16",
+        "14"
       ],
       "chunk_files": [
         "15"
@@ -249,7 +262,9 @@
       "record_sources": [
         "15",
         "05",
-        "08"
+        "08",
+        "16",
+        "14"
       ],
       "chunk_files": [
         "15"

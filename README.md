@@ -1,5 +1,8 @@
 # 法言法语黑话转换器
 
+[![GitHub](https://img.shields.io/badge/GitHub-ZongziForu%2Flaw--legalese--converter-blue)](https://github.com/ZongziForu/law-legalese-converter)
+[![小红书](https://img.shields.io/badge/小红书-法言法语黑话转换器-red)](http://xhslink.cn/o/3yGTekg5PM2)
+
 > 将中文大白话或普通法律表述，转换为现代法学黑话、教义学表达、老派民法学术腔、当代裁判文书腔、古典法言、民国判牍或法学序言式修辞，同时尽可能保持原事实、法律关系、情态强度与明示结论不变。
 
 `legal-jargon` 不是简单的法律词语替换器。它通过任务权限、命题核保真、领域路由、风格控制、结构化素材检索和生成后校验，共同完成法律语言转换。
